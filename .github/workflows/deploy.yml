@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: ‘multitasking' 
+          BASE_PATH: ‘/multitasking' 
         run: |
           npm run build
 
