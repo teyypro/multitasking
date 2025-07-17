@@ -21,7 +21,7 @@
 					const editorDiv = document.createElement('div');
 					editorDiv.className = 'editor-container';
 					editorDiv.innerHTML = `
-						<div class="contenteditable" contenteditable="true">${state.content || ''}</div>
+						<div spellcheck = 'false' class="contenteditable" contenteditable="true">${state.content || ''}</div>
 					`;
 
 					// Lưu nội dung khi chỉnh sửa
