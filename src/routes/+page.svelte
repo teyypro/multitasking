@@ -130,6 +130,10 @@
     height: 100%;
     background-color: #ffffff;
 	}
+	:global(.contenteditable>img) {
+	    max-height: 250px;
+    width: auto;
+	}
 	:global(.contenteditable) {
 		padding: 10px;
     height: 100%;
